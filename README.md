@@ -133,11 +133,11 @@ mkfifo mypipe
 ./consumer.sh
 
 
-# Files in This Repository
+# Relevent Files in This Repository
 
 | File Name   | Description |
 | ------------- | ------------- |
-| multi_threading.cpp  | Implements multi-threading using C++ threads and mutexes.  |
+| mutithreading.cpp  | Implements multi-threading using C++ threads and mutexes.  |
 | ipc_pipes.cpp	  | Implements IPC using pipe() in a parent-child process.  |
 | producer.sh  | Writes data to a named pipe (mypipe).  |
 | producer.sh  | Reads data from a named pipe (mypipe).  |
